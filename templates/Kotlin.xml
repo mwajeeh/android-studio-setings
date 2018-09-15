@@ -1,0 +1,9 @@
+<templateSet group="Kotlin">
+  <template name="logd" value="timber.log.Timber.d(&quot;&gt;&gt;&gt;&gt;$METHOD_NAME$: $content$&quot;)" description="logd" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
